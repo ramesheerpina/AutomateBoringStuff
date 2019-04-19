@@ -8,6 +8,12 @@ for number in range(100):
 print(total)
 
 wtotal=0
-while wtotal < 5:
+while wtotal < 100:
     wtotal = wtotal+1
-print(wtotal)
+    print(wtotal)
+
+total=0
+for i in range(0,100):
+    print(i)
+    total=total+i
+print(total)
