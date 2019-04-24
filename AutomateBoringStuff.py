@@ -1,3 +1,7 @@
-import random
-for i in range(3):
-    print(random.randint(1,5))
+import sys
+while True:
+    print("Type Exit to exit")
+    response = input()
+    if response == 'exit':
+        sys.exit()
+    print("you type " + response + ".")
